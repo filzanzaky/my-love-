@@ -5,11 +5,11 @@ const terminalLines = [
   "",
   "Halo kamu...",
   "Aku cuma mau bilang satu hal...",
-  "Maafkan aku.",
-  "Aku sadar aku telah mengecewakanmu.",
-  "Tapi aku benar-benar ingin memperbaikinya.",
-  "Maukah kamu memberiku kesempatan lagi?",
-  "-- Selesai --"
+  "Maafin aku yaa sayaang kuu.",
+  "Aku sadar aku udah kecewain kamuu.",
+  "Tapi aku bener bener mau perbaiki lagi sayaang.",
+  "kamu mau kan kasih aku kesempatan lagi?",
+  "-- Sayang Nya Kamu.  --"
 ];
 
 const terminal = document.getElementById("terminal");

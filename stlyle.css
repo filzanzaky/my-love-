@@ -1,0 +1,58 @@
+body {
+  background-color: #1e1e1e;
+  color: #00ff88;
+  font-family: monospace;
+  padding: 20px;
+  margin: 0;
+  overflow: hidden;
+}
+
+#terminal {
+  white-space: pre-wrap;
+  font-size: 16px;
+}
+
+.password-container {
+  text-align: center;
+  margin-top: 20%;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #00ff88;
+  border: none;
+  color: #1e1e1e;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#reply {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ❤️ Animasi hati */
+body::after {
+  content: "❤️❤️❤️❤️❤️";
+  font-size: 40px;
+  position: absolute;
+  animation: fall 10s linear infinite;
+  left: 0;
+  top: 0;
+  opacity: 0.2;
+}
+
+@keyframes fall {
+  0% { transform: translateY(-100px); }
+  100% { transform: translateY(100vh); }
+}

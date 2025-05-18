@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Permintaan Maaf</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="bg-music" src="music.mp3" autoplay loop></audio>
+
+  <div class="password-container" id="password-container">
+    <h2>Masukkan Nama Panggilanmu :)</h2>
+    <input type="password" id="password" placeholder="Contoh: sayang">
+    <button onclick="checkPassword()">Masuk</button>
+  </div>
+
+  <div id="terminal" class="hidden"></div>
+  <div id="reply" class="hidden">
+    <button onclick="replyMessage()">Aku Maafin Kamu ❤️</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
